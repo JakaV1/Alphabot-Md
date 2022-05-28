@@ -2,17 +2,17 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `Tunggu Ya Sayangku~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Udah Selesai Sayang~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `Maap Sayang Fitur Nya Error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return ` Link Nya Error Sayaang`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -22,7 +22,7 @@ exports.replyImg = (prefix, command) => {
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format salah Sayang ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
@@ -30,23 +30,23 @@ exports.emptyMess = () => {
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu Sayang*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `Command ini khusus untuk Jaka Tersayang `
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Sudah selesai, Sayang ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Command ini hanya bisa digunakan di dalam grup ya sayaang!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `Maap sayang kamu bukan admin, jadi ga bisa!`
 }
 
 exports.nhFalse = () => {
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan aku admin dulu lah sayang `
 }
 
 exports.received = (pushname) => {
@@ -78,23 +78,23 @@ Terima kasih telah melapor, laporanmu akan kami segera terima.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `Ukuran file terlalu besar Sayang!`
 }
 
 exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+	return`Hai ${pushname} Sayang 👋 selamat ${salam} , 
 saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+lapor owner agar segera di perbaiki ya sayang🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Girlfriend-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -790,6 +790,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├Jaka
 ├ Penyedia Module
 ╰❒ And All Support
     `
@@ -1464,6 +1465,7 @@ exports.tqto = () =>{
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├Jaka
 ├ Penyedia Module
 ╰❒ And All Support
 `
